@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cultural_worlds",
+  "info": {
+    "singularName": "cultural-world",
+    "pluralName": "cultural-worlds",
+    "displayName": "cultural-world"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "intro_text": {
+      "type": "text"
+    },
+    "long_text": {
+      "type": "text"
+    },
+    "seo_title": {
+      "type": "string"
+    },
+    "seo_description": {
+      "type": "text"
+    }
+  }
+}
